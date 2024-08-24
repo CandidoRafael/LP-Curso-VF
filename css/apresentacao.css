@@ -1,0 +1,56 @@
+.main-container-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+}
+
+.header-presentation {
+    text-align: center;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-presentation p {
+    font-weight: 200;
+}
+
+.container-btn-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-video-presentation {
+    margin-bottom: 1.5rem;
+}
+
+.container-btn-presentation button {
+    display: flex;
+    padding: .4rem 2.5rem;
+    gap: 1rem;
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid var(--green);
+    border-radius: 18px;
+    text-transform: uppercase;
+    align-items: center;
+    transition: all 0.2s ease-in;
+}
+
+.container-btn-presentation .gradient-effect-btn {
+    margin-top: -85px;
+    z-index: -1;
+    opacity: .8;
+}
+
+.container-btn-presentation button:hover {
+    transform: scale(1.07);
+}
